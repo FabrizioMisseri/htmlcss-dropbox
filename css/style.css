@@ -11,24 +11,43 @@ html{
 
 
 /* COMMON */
+.flex{
+    display: flex;
+}
 
+.space-between{
+    justify-content: space-between;
+}
+
+.wrapper-jumbo-footer{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
 
 
 /* header */
 header{
-    height: 100px;
+    height: 80px;
     width: 100%;
     position: fixed;
     z-index: 1000;
     background-color: white;
 }
 
+header nav{
+    /* debug */
+    background-color: blueviolet;
+    width: 25%;
+    height: 100%;
+}
+
 
 /* main */
-/* main{
-    margin-top: 100px;
-} */
-
 section{
     /* debug */
     min-height: 300px;
@@ -36,7 +55,7 @@ section{
     border: 1px solid black;
 }
 
-section.notehead{
+section.jumbotron{
     padding-top: 100px;
     /* debug */
     background-color: #90A6B9;
