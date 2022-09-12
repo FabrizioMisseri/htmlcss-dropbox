@@ -147,7 +147,10 @@ section.free-trial{
 }
 
 
-
+.frequent-questions .row{
+    /* debug */
+    min-height: 80px;
+}
 
 /* FOOTER */
 footer{
