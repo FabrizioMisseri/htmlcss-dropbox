@@ -90,19 +90,26 @@ section.jumbotron{
     background-color: black;
 }
 
-.payment-plan .row{
+.row{
     width: 100%;
-    margin-top: 2em;
+    padding-top: 1em 0;
     /* debug */
     min-height: 200px;
     background-color: green;
 }
 
-.payment-plan .row .col{
-    width: calc(90% / 3);
+.col{
     /* debug */
     background-color: blue;
     min-height: 400px;
+}
+
+.payment-plan .row .col{
+    width: calc(90% / 3);
+}
+
+.partner .row .col{
+    width: calc(95% / 2);
 }
 
 
