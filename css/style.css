@@ -96,16 +96,16 @@ header ul {
 /* MAIN */
 section{
     padding: 4em 0;
-    /* debug */
-    min-height: 300px;
-    background-color: yellow;
-    border: 1px solid black;
+}
+
+section h2{
+    margin: .5em 0;
 }
 
     /* JUMBOTRON PART */
 section.jumbotron{
     padding: 160px 0 1em;
-    background-color: #90A6B9;
+    background-color: #7cd3e2;
 }
 
 .jumbotron h1{
@@ -127,11 +127,9 @@ section.jumbotron{
     /* FINE JUMBOTRON PART */
 
 
-section h2{
+section h1{
     margin-bottom: 2em;
-    /* debug */
-    height: 60px;
-    background-color: black;
+    font-size: 2rem;
 }
 
 .row{
@@ -144,7 +142,6 @@ section h2{
 
 .col{
     /* debug */
-    background-color: blue;
     min-height: 400px;
 }
 
@@ -153,6 +150,41 @@ section h2{
 .business .row .col{
     width: calc(90% / 3);
 }
+
+    /* payment plan */
+.payment-plan .col{
+    border: 1.5px solid gray;
+}
+
+.payment-plan .col-head{
+    padding: 1em;
+    border-bottom: 1.5px solid gray;
+    text-align: center;
+}
+
+.payment-plan .col-body{
+    padding: 1em;
+}
+
+.payment-plan .col-body div{
+    margin: .5em 0;
+}
+
+.payment-plan .col-body div > button{
+    margin: .8em 0;
+}
+
+.payment-plan .col-body .trattino{
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+}
+
+
+
+
+
 
 
 .partner .row .col{
