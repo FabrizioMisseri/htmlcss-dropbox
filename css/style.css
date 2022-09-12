@@ -152,8 +152,32 @@ section.free-trial{
     min-height: 80px;
 }
 
+
+
 /* FOOTER */
 footer{
     background-color: black;
     min-height: 500px;
+    padding: 2em 0;
+}
+
+footer .row .col{
+    width: calc(100% / 5);
+    padding: 1em 0;
+    margin-bottom: 1em;
+    /* debug */
+    border: 1px solid;
+}
+
+footer .row .col:first-child{
+    border-bottom: 3px dashed white;
+}
+
+
+    /* debug ID */
+#cancellalo{
+    background-color: orange;
+    height: 50px;
+    width: 20%;
+
 }
