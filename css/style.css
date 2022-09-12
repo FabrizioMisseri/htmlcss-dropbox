@@ -130,6 +130,22 @@ section.designit{
     background-color: orange;
 }
 
+section.free-trial{
+    /* debug */
+    min-height: 0;
+}
+
+.free-trial h2{
+    margin: 0;
+    /* debug */
+    width: 25%;
+}
+
+.free-trial button{
+    /* debug */
+    width: 25%;
+}
+
 
 
 
