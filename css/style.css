@@ -50,14 +50,16 @@ header nav{
 }
 
 
-/* main */
+/* MAIN */
 section{
+    padding: 4em 0;
     /* debug */
     min-height: 300px;
     background-color: yellow;
     border: 1px solid black;
 }
 
+    /* JUMBOTRON PART */
 section.jumbotron{
     padding: 200px 0 1em;
     /* debug */
@@ -66,7 +68,7 @@ section.jumbotron{
 }
 
 .jumbotron h1{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     /* debug */
     height: 80px;
     background-color: black;
@@ -79,7 +81,33 @@ section.jumbotron{
     min-height: 300px;
     width: 50%;
 }
-/* footer */
+    /* FINE JUMBOTRON PART */
+
+.payment-plan h2{
+    margin-bottom: 2em;
+    /* debug */
+    height: 60px;
+    background-color: black;
+}
+
+.payment-plan .row{
+    width: 100%;
+    margin-top: 2em;
+    /* debug */
+    min-height: 200px;
+    background-color: green;
+}
+
+.payment-plan .row .col{
+    width: calc(90% / 3);
+    /* debug */
+    background-color: blue;
+    min-height: 400px;
+}
+
+
+
+/* FOOTER */
 footer{
     background-color: black;
     min-height: 500px;
