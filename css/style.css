@@ -113,6 +113,22 @@ section h2{
     width: calc(95% / 2);
 }
 
+section.designit{
+    padding: 0;
+} 
+
+.designit .row .col{
+    width: calc(100% / 3);
+    /* debug */
+    border: 1px solid;
+}
+
+.designit .cell{
+    width: 50%;
+    /* debug */
+    border: 1px solid;
+    background-color: orange;
+}
 
 
 
