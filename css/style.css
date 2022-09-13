@@ -13,17 +13,13 @@ ul{
     list-style-type: none;
 }
 
-ul li {
-    margin: 0 .5em;
-    font-size: .9rem;
-}
-
 img{
     max-width: 100%;
 }
 
 header a,
-.jumbotron a{
+.jumbotron a,
+footer a{
     color: inherit;
     text-decoration: none;
 }
@@ -68,6 +64,7 @@ header a,
     margin: 0 auto;
 }
 
+
 .btn{
     padding: .5em 1.1em;
     border: none;
@@ -83,10 +80,12 @@ header a,
     border: 1px solid black;
 }
 
+
 .payment-plan .row .col,
 .business .row .col{
     width: calc(90% / 3);
 }
+
 
 hr{
     width: 70px;
@@ -94,6 +93,10 @@ hr{
     margin: 1.5em 0;
 }
 
+
+.invert-color{
+    filter: invert(1);
+}
 
 
    /* colori sfondo delle card in designit*/
@@ -129,14 +132,10 @@ hr{
     background-color: #CEB33B;
 }
 
-.invert-color{
-    filter: invert(1);
-}
 
 
 
-
-/* header */
+/* HEADER */
 header{
     height: 80px;
     width: 100%;
@@ -153,6 +152,15 @@ header nav{
 header ul {
     height: 100%;
 }
+
+header ul li {
+    margin: 0 .5em;
+}
+
+header #special-item{
+    min-width: 75px;
+}
+/*  / HEADER */
 
 
 
@@ -180,6 +188,7 @@ section button{
 }
 
 
+
     /* JUMBOTRON PART */
 section.jumbotron{
     padding: 160px 0 1em;
@@ -203,6 +212,7 @@ section.jumbotron{
     font-size: 3rem;
 }
     /* FINE JUMBOTRON PART */
+
 
 
     /* payment plan */
@@ -254,8 +264,10 @@ section.jumbotron{
     /*  /partner part */
 
 
+
     /* BUSINESS PART */
     /*  /business part*/
+
 
 
     /* sezione 5 */
@@ -344,25 +356,28 @@ footer{
     background-color: black;
     min-height: 500px;
     padding: 2em 0;
+    color: white;
 }
 
 footer .row .col{
     width: calc(100% / 5);
-    padding: 1em 0;
+    padding: 2em 0;
     margin-bottom: 1em;
-    /* debug */
-    border: 1px solid;
 }
 
-footer .row .col:first-child{
-    border-bottom: 3px dashed white;
+footer h2{
+    margin-bottom: 1em;
 }
 
-
-    /* debug ID */
-#cancellalo{
-    background-color: orange;
-    height: 50px;
-    width: 20%;
-
+footer li{
+    margin-bottom: .5em;
 }
+
+footer .wrapper-big > div:last-child{
+    margin-top: 2em;
+}
+
+footer div span{
+    margin: 0 .4em;
+}
+/*  / FOOTER */
