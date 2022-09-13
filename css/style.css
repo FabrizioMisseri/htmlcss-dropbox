@@ -22,7 +22,8 @@ img{
     max-width: 100%;
 }
 
-a{
+header a,
+.jumbotron a{
     color: inherit;
     text-decoration: none;
 }
@@ -57,13 +58,13 @@ a{
 
 .wrapper-big{
     width: 70%;
+    max-width: 1200px;
     margin: 0 auto;
-    /* debug */
-    min-height: 400px;
 }
 
 .wrapper{
     width: 60%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -220,6 +221,12 @@ section.jumbotron{
 
     /* BUSINESS PART */
     /*  /business part*/
+
+    /* sezione 5 */
+.sez-5 .wrapper > div{
+    max-width: 60%;
+}
+    /* / sez 5 */
 
 
 section.designit{
