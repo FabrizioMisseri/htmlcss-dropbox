@@ -38,19 +38,28 @@ a{
     justify-content: space-between;
 }
 
-.wrapper-jumbo-footer{
-    width: 70%;
-    margin: 0 auto;
-    /* debug */
-    min-height: 400px;
-}
-
 .align-items-center{
     align-items: center;
 }
 
+.align-items-start{
+    align-items: flex-start;
+}
+
 .direction-col{
     flex-direction: column;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+
+.wrapper-big{
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    min-height: 400px;
 }
 
 .wrapper{
@@ -93,6 +102,8 @@ header ul {
     height: 100%;
 }
 
+
+
 /* MAIN */
 section{
     padding: 4em 0;
@@ -101,6 +112,20 @@ section{
 section h2{
     margin: .5em 0;
 }
+
+section h1{
+    margin-bottom: 2em;
+    font-size: 2rem;
+}
+
+section div{
+    margin: .5em 0;
+}
+
+section button{
+    margin: 1em 0;
+}
+
 
     /* JUMBOTRON PART */
 section.jumbotron{
@@ -127,16 +152,12 @@ section.jumbotron{
     /* FINE JUMBOTRON PART */
 
 
-section h1{
-    margin-bottom: 2em;
-    font-size: 2rem;
-}
+
 
 .row{
-    width: 100%;
     /* debug */
     min-height: 200px;
-    background-color: green;
+    background-color: pink;
     border: 1px solid black;
 }
 
@@ -163,15 +184,7 @@ section h1{
 }
 
 .payment-plan .col-body{
-    padding: 1em;
-}
-
-.payment-plan .col-body div{
-    margin: .5em 0;
-}
-
-.payment-plan .col-body div > button{
-    margin: .8em 0;
+    padding: 0 1em;
 }
 
 .payment-plan .col-body .trattino{
@@ -181,15 +194,27 @@ section h1{
     margin-bottom: 50px;
 }
 
-
-
-
-
-
-
-.partner .row .col{
-    width: calc(95% / 2);
+.payment-plan .col-body .cell{
+    min-width: 33%;
 }
+
+.payment-plan .row:first-child{
+    margin-bottom: 3em;
+}
+    /* payment plan */
+    
+
+
+    /* PARTNER PART */
+.partner .row .col:first-child{
+    width: 60%;
+}
+
+.partner .row .col:last-child{
+    width: 40%;
+    padding: 3em 1em;
+}
+
 
 
 section.designit{
