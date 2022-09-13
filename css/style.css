@@ -109,12 +109,13 @@ section{
     padding: 4em 0;
 }
 
-section h2{
+section h2,
+section h3{
     margin: .5em 0;
 }
 
 section h1{
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-size: 2rem;
 }
 
@@ -214,7 +215,11 @@ section.jumbotron{
     width: 40%;
     padding: 3em 1em;
 }
+    /*  /partner part */
 
+
+    /* BUSINESS PART */
+    /*  /business part*/
 
 
 section.designit{
