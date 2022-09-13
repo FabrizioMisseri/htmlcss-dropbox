@@ -298,22 +298,26 @@ section.designit{
     padding: 1.8em;
 }
 
+#bordo-special{
+    border: 10px solid #c8e6c4;
+}
+    /* / DESIGNIT PART */
 
 
+
+    /* FREE-TRIAL PART */
 section.free-trial{
-    /* debug */
-    min-height: 0;
+    background-color: #AABECF;
 }
 
 .free-trial h2{
     margin: 0;
-    /* debug */
-    width: 25%;
+    color: #770B35;
+    max-width: 50%;
 }
 
 .free-trial button{
-    /* debug */
-    width: 25%;
+    max-width: 30%;
 }
 
 
