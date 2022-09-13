@@ -167,7 +167,7 @@ section h3{
 }
 
 section h1{
-    margin-bottom: 1em;
+    margin-bottom: 1.25em;
     font-size: 2rem;
 }
 
@@ -310,7 +310,7 @@ section.free-trial{
     background-color: #AABECF;
 }
 
-.free-trial h2{
+.free-trial h1{
     margin: 0;
     color: #770B35;
     max-width: 50%;
@@ -319,12 +319,23 @@ section.free-trial{
 .free-trial button{
     max-width: 30%;
 }
+    /* / FREE-TRIAL PART */
 
 
+
+    /* FREQUENT QUESTIONS */
+    
 .frequent-questions .row{
-    /* debug */
-    min-height: 80px;
+    border-top: 1px solid gray;
+    padding: 1.5em 0;
+    margin: 0;
+    font-weight: bolder;
 }
+
+.frequent-questions .row:last-child{
+    border-bottom: 1px solid gray;
+}
+    /*  / FREQUENT QUESTIONS */
 
 
 
