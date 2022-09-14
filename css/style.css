@@ -239,6 +239,11 @@ section.jumbotron{
     margin-bottom: 2em;
 }
 
+/* .payment-plan label:active input{
+    border: 3px solid blue;
+} */
+
+
 .payment-plan label{
     margin-right: 1em;
 }
@@ -365,16 +370,40 @@ section.free-trial{
 
 
     /* FREQUENT QUESTIONS */
-    
 .frequent-questions .row{
     border-top: 1px solid gray;
     padding: 1.5em 1.5em 1.5em 0;
     margin: 0;
     font-weight: bolder;
+    position: relative;
 }
 
 .frequent-questions .row:last-child{
     border-bottom: 1px solid gray;
+}
+
+.frequent-questions .box-menù div.hidden-menù{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+.frequent-questions .hidden-chevron {
+    display: none;
+}
+
+.frequent-questions .box-menù:hover .hidden-chevron{
+    display: inline-block;
+}
+
+.frequent-questions .box-menù:hover .shown-chevron{
+    display: none;
+}
+
+.frequent-questions .box-menù:hover div.hidden-menù{
+    display: block;
+    position: relative;
 }
     /*  / FREQUENT QUESTIONS */
 
