@@ -69,6 +69,11 @@ footer a{
     padding: .5em 2em;
     border: none;
     display: inline-block;
+    transition: .3s linear;
+}
+
+.btn:hover{
+    filter: opacity(.3);
 }
 
 .sfondo-blu{
@@ -252,7 +257,7 @@ section.jumbotron{
     padding: 0 1em;
 }
 
-.payment-plan .col-body{
+.payment-plan .col-body .cell{
     min-width: 33%;
 }
 
