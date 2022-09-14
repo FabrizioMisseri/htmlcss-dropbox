@@ -66,7 +66,7 @@ footer a{
 
 
 .btn{
-    padding: .5em 1.1em;
+    padding: .5em 2em;
     border: none;
     display: inline-block;
 }
@@ -91,7 +91,7 @@ footer a{
 hr{
     width: 70px;
     color: gray;
-    margin: 1.5em 0;
+    margin: 3em 0;
 }
 
 
@@ -216,7 +216,6 @@ section.jumbotron{
 
 .jumbotron .item-dx{
     width: 70%;
-    position: relative;
 }
 
 #down-arrow{
@@ -227,6 +226,18 @@ section.jumbotron{
 
 
     /* payment plan */
+.payment-plan .wrapper{
+    padding-top: 2em;
+}
+
+.payment-plan input{
+    margin-bottom: 2em;
+}
+
+.payment-plan label{
+    margin-right: 1em;
+}
+
 .payment-plan .col{
     border: 1.5px solid gray;
 }
@@ -241,15 +252,17 @@ section.jumbotron{
     padding: 0 1em;
 }
 
-.payment-plan .col-body .trattino{
-    width: 50px;
-    height: 50px;
-    border-bottom: 1px solid grey;
-    margin-bottom: 50px;
+.payment-plan .col-body{
+    min-width: 33%;
 }
 
-.payment-plan .col-body .cell{
-    min-width: 33%;
+.payment-plan .col-body ul{
+    display: flex;
+}
+
+.payment-plan .col-body ul li{
+    margin-right: 1em;
+    margin-top: 1em;
 }
 
 .payment-plan .row:last-child{
