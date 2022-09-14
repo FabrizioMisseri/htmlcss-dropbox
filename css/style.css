@@ -68,6 +68,7 @@ footer a{
 .btn{
     padding: .5em 1.1em;
     border: none;
+    display: inline-block;
 }
 
 .sfondo-blu{
@@ -195,8 +196,17 @@ section.jumbotron{
     background-color: #7cd3e2;
 }
 
+.jumbotron .item-sx .div{
+    margin: .25em;
+}
+
+.jumbotron .wrapper-big > div{
+    position: relative;
+    top: 90px;
+}
+
 .jumbotron h1{
-    margin-bottom: 1em;
+    margin-bottom: calc(1em - 90px);
     font-size: 4rem;
 }
 
@@ -206,10 +216,11 @@ section.jumbotron{
 
 .jumbotron .item-dx{
     width: 70%;
+    position: relative;
 }
 
 #down-arrow{
-    font-size: 3rem;
+    font-size: 2rem;
 }
     /* FINE JUMBOTRON PART */
 
